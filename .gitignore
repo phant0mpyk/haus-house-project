@@ -6,3 +6,7 @@ Temp/
 .luciens/
 .neles/
 .lillys/
+Library/Artifacts/
+/Library/Artifacts
+/Logs
+Library/ArtifactDB
