@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\PitchTracker.cs" />
+    <Compile Include="Assets\Scripts\ProgressBarController.cs" />
     <Compile Include="Assets\Scripts\AudioLoudnessDetector.cs" />
     <Compile Include="Assets\Scripts\CatMicController.cs" />
     <Compile Include="Assets\Scripts\HomeScreenController.cs" />

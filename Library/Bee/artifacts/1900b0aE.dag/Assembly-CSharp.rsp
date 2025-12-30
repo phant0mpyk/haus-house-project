@@ -446,6 +446,7 @@
 "Assets/Scripts/CatMicController.cs"
 "Assets/Scripts/HomeScreenController.cs"
 "Assets/Scripts/PitchTracker.cs"
+"Assets/Scripts/ProgressBarController.cs"
 "Assets/Scripts/SleepyScreenController.cs"
 -langversion:9.0
 /deterministic

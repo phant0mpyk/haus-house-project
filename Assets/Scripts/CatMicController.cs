@@ -34,7 +34,7 @@ public class CatMicController : MonoBehaviour
 
     //public float endTime = 15f; //the time that needs to be reached to actually win (it's shorter for now since it's the prototype), dont need this because we already have the winPoints
 
-
+    public ProgressBarController progressBar; // gets a reference to the Progress Bar script
 
 
     void Start()
@@ -102,7 +102,7 @@ public class CatMicController : MonoBehaviour
         StartCoroutine(WaitAndPrint(1));
 
 
-
+        progressBar.current = (int)catPoints; //adds the gained point to the progressbar current fill
 
 
         currentGreenTime = 0; //resets the greentime to 0 again so the function doesn't give out more points
