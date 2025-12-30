@@ -17,7 +17,7 @@ public class CatMicController : MonoBehaviour
     //Loudness Settings
     public AudioLoudnessDetector loudnessDetector;
     public float minGreen = 0.001f;   // quiet threshold
-    public float maxGreen = 8f;   // loud threshold
+    public float maxGreen = 20f;   // loud threshold
 
 
     private AudioSource micSource;
@@ -110,7 +110,7 @@ public class CatMicController : MonoBehaviour
         if (catPoints >= winPoints) // this is the statement for winning the game. If the player hasd gained 5 or more catPoints the win statement is played
         {
             Debug.Log("The kitty fellk asleep; congrats <3");
-            SceneManager.LoadScene("CatNap"); //changes the scene to the CatNap winning scene
+            SceneManager.LoadScene("SleepyScreen"); //changes the scene to the winning scene
         }
 
 

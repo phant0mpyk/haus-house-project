@@ -444,7 +444,9 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.47f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Assets/Scripts/AudioLoudnessDetector.cs"
 "Assets/Scripts/CatMicController.cs"
+"Assets/Scripts/HomeScreenController.cs"
 "Assets/Scripts/PitchTracker.cs"
+"Assets/Scripts/SleepyScreenController.cs"
 -langversion:9.0
 /deterministic
 /optimize+
