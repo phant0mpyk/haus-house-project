@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/CatNap.unity
+- path: Assets/Scenes/ColourParty.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
