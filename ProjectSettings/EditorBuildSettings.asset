@@ -17,6 +17,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SleepyScreen.unity
     guid: 524ed2f198ae5384ebf5aac84eb6fe07
+  - enabled: 1
+    path: Assets/Scenes/LabExplosion.unity
+    guid: a7f860711a4ce5b42b1b0dc933764341
+  - enabled: 1
+    path: Assets/Scenes/LabStar.unity
+    guid: 61c039fba32d87b489a967d0f12f6327
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

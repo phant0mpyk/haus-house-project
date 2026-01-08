@@ -32,6 +32,11 @@ public class CatMicController : MonoBehaviour
     private float currentGreenTime = 0f;
     public bool gameWon = false; //the game is not won from the start
 
+    //loosing settings
+    public float looseTime = 5f;
+    private float currentRedTime = 0f;
+
+
     //public float endTime = 15f; //the time that needs to be reached to actually win (it's shorter for now since it's the prototype), dont need this because we already have the winPoints
 
     public ProgressBarController progressBar; // gets a reference to the Progress Bar script
@@ -71,6 +76,7 @@ public class CatMicController : MonoBehaviour
         );
 
         bool inGreen = (loudness >= minGreen && loudness <= maxGreen);
+        bool tooLoud = loudness > maxGreen;
 
         // Change cat sprite
         if (inGreen)
@@ -87,10 +93,34 @@ public class CatMicController : MonoBehaviour
         {
             catImage.sprite = catAwake; //switching the cat picture to the awake cat if the volume is in the red
             currentGreenTime = 0f;
+
+            if (tooLoud)
+            {
+                currentRedTime += Time.deltaTime;
+
+                if (currentRedTime >= looseTime)
+                {
+                    LoseGame();
+                }
+            }
+            else
+            {
+                currentRedTime = 0f; //quite and not in nthe green zone
+            }
         }
 
 
 
+
+       
+        
+
+    }
+
+    void LoseGame()
+    {
+        Debug.Log("Experiment failed!");
+        SceneManager.LoadScene("LabExplosion");
     }
 
     void GainPoint()
@@ -110,7 +140,7 @@ public class CatMicController : MonoBehaviour
         if (catPoints >= winPoints) // this is the statement for winning the game. If the player hasd gained 5 or more catPoints the win statement is played
         {
             Debug.Log("The kitty fellk asleep; congrats <3");
-            SceneManager.LoadScene("SleepyScreen"); //changes the scene to the winning scene
+            SceneManager.LoadScene("LabStar"); //changes the scene to the winning scene
         }
 
 
