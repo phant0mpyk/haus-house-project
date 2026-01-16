@@ -36,6 +36,9 @@ public class CatMicController : MonoBehaviour
     public float looseTime = 5f;
     private float currentRedTime = 0f;
 
+    public AudioSource audiosource;
+    public ParticleSystem particlesystem;
+
 
     //public float endTime = 15f; //the time that needs to be reached to actually win (it's shorter for now since it's the prototype), dont need this because we already have the winPoints
 
@@ -129,7 +132,10 @@ public class CatMicController : MonoBehaviour
         Debug.Log("Cat asleep for 3 seconds, you gained +1 point"); //if the game is won it shows a debug message
         catPoints += 1f;
         Debug.Log(catPoints);
-        StartCoroutine(WaitAndPrint(1));
+        StartCoroutine(WaitAndPrint(3));
+        audiosource.Play();
+        particlesystem.Play();
+
 
 
         progressBar.current = (int)catPoints; //adds the gained point to the progressbar current fill
