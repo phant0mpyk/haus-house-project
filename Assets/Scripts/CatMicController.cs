@@ -13,6 +13,9 @@ public class CatMicController : MonoBehaviour
     public Sprite catSleeping;
     public Sprite catAwake;
     public Image fishPoint;
+    public Sprite MICon;
+    public Sprite MICoff;
+    public Image MicImage;
 
     //Loudness Settings
     public AudioLoudnessDetector loudnessDetector;
@@ -71,6 +74,8 @@ public class CatMicController : MonoBehaviour
     {
 
 
+       
+
         //if (gameWon) return; this stops the Update function from running after game won is true once in GainPoint()
 
         float loudness = loudnessDetector.GetLoudnessFromAudioClip(
@@ -80,6 +85,16 @@ public class CatMicController : MonoBehaviour
 
         bool inGreen = (loudness >= minGreen && loudness <= maxGreen);
         bool tooLoud = loudness > maxGreen;
+        bool volumeOn = loudness > 0.002f;
+
+        if (volumeOn) //shows the mic on sprite when there is mic input/ when the volume is over 0
+        {
+            MicImage.sprite = MICon;
+        }
+        else
+        {
+            MicImage.sprite = MICoff;
+        }
 
         // Change cat sprite
         if (inGreen)
