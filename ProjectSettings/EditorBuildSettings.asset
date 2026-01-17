@@ -23,6 +23,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LabStar.unity
     guid: 61c039fba32d87b489a967d0f12f6327
+  - enabled: 1
+    path: Assets/Scenes/Tutorial1.unity
+    guid: 75685a4f36bb1644eba7aca7082b38e8
+  - enabled: 1
+    path: Assets/Scenes/Tutorial2.unity
+    guid: 033ebef98fe65a243b7bd61bdace763a
+  - enabled: 1
+    path: Assets/Scenes/Tutorial3.unity
+    guid: 626437e6cbab4d349a5dd4b9c501d9b9
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

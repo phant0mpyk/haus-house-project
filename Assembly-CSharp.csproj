@@ -62,13 +62,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\PitchTracker.cs" />
+    <Compile Include="Assets\Scripts\Tutorial2.cs" />
     <Compile Include="Assets\Scripts\ProgressBarController.cs" />
     <Compile Include="Assets\Scripts\AudioLoudnessDetector.cs" />
     <Compile Include="Assets\Scripts\CatMicController.cs" />
+    <Compile Include="Assets\Scripts\Tutorial3.cs" />
     <Compile Include="Assets\Scripts\HomeScreenController.cs" />
-    <Compile Include="Assets\Scripts\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\Tutorial1.cs" />
     <Compile Include="Assets\Scripts\SleepyScreenController.cs" />
-    <Compile Include="Assets\MicCalibration.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
