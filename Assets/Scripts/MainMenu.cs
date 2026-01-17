@@ -5,7 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-   public void PlayGame1()
+   //Switching to the scenes of the different minigames//
+    public void PlayGame1()
     {
         SceneManager.LoadSceneAsync(1);
     }
@@ -20,11 +21,19 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadSceneAsync(3);
     }
 
+    //Switching to settings scene//
+    public void Settings()
+    {
+        SceneManager.LoadSceneAsync(4);
+    }
+
+    //Returning back to the main menu scene//
     public void ExitGame()
     {
         SceneManager.LoadSceneAsync(0);
     }
 
+    //Closing the game//
     public void QuitGame()
     {
         Application.Quit();
