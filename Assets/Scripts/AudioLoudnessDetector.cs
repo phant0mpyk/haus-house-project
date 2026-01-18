@@ -15,7 +15,7 @@ public class AudioLoudnessDetector : MonoBehaviour
         float[] waveData = new float[sampleWindow];
         clip.GetData(waveData, startPosition);
 
-        //compute loudness
+        //computing the loudness
         float totalLoudness = 0;
 
         for (int i = 0; i < sampleWindow; i++)

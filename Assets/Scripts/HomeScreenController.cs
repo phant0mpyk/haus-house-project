@@ -6,7 +6,7 @@ public class HomeScreenController : MonoBehaviour
 {
    public void PlayGame()
     {
-        SceneManager.LoadScene("Tutorial1"); //loads into the Tutorial Scene
+        SceneManager.LoadScene("Tutorial"); //loads into the Tutorial Scene
     }
 
     public void QuitGame()

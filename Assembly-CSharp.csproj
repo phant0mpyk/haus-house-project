@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\AudioLoudnessDetector.cs" />
     <Compile Include="Assets\Scripts\CatMicController.cs" />
     <Compile Include="Assets\Scripts\Tutorial3.cs" />
+    <Compile Include="Assets\Scripts\TutorialController.cs" />
     <Compile Include="Assets\Scripts\HomeScreenController.cs" />
     <Compile Include="Assets\Scripts\Tutorial1.cs" />
     <Compile Include="Assets\Scripts\SleepyScreenController.cs" />

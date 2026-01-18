@@ -8,7 +8,7 @@ using static Unity.VisualScripting.Member;
 [RequireComponent(typeof(AudioSource))]
 public class CatMicController : MonoBehaviour
 {
-    //Cat Sprites
+    //Sprites
     public Image catImage;
     public Sprite catSleeping;
     public Sprite catAwake;
