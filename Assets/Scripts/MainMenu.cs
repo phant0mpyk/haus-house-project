@@ -18,7 +18,7 @@ public class MainMenu : MonoBehaviour
 
     public void PlayGame3()
     {
-        SceneManager.LoadSceneAsync("SampleScreen");
+        SceneManager.LoadSceneAsync("ColourParty");
     }
 
     //Switching to settings scene//

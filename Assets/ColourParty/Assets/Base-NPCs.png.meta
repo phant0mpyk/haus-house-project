@@ -1,0 +1,407 @@
+fileFormatVersion: 2
+guid: 3c257322ec9fe6547b72e03cf1e60858
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2660678786084089705
+    second: Base-NPCs_0
+  - first:
+      213: -7777926296646760033
+    second: Base-NPCs_1
+  - first:
+      213: 600763752714258246
+    second: Base-NPCs_2
+  - first:
+      213: 221722946735489682
+    second: Base-NPCs_3
+  - first:
+      213: 6994769154810099956
+    second: Base-NPCs_4
+  - first:
+      213: -1668553238303341234
+    second: Base-NPCs_5
+  - first:
+      213: -8039963364781828874
+    second: Base-NPCs_6
+  - first:
+      213: 2948029130170737174
+    second: Base-NPCs_7
+  - first:
+      213: 956749938159985477
+    second: Base-NPCs_8
+  - first:
+      213: -978052352931230728
+    second: Base-NPCs_9
+  - first:
+      213: 745134588436069185
+    second: Base-NPCs_10
+  - first:
+      213: 615604510067013740
+    second: Base-NPCs_11
+  - first:
+      213: 3774168173731666322
+    second: Base-NPCs_12
+  - first:
+      213: -845700456429386636
+    second: Base-NPCs_13
+  - first:
+      213: -7807539353945608114
+    second: Base-NPCs_14
+  - first:
+      213: 571045148646389755
+    second: Base-NPCs_15
+  - first:
+      213: -8877265214879692669
+    second: Base-NPCs_16
+  - first:
+      213: -2972658529930697729
+    second: Base-NPCs_17
+  - first:
+      213: -3256302732978296993
+    second: Base-NPCs_18
+  - first:
+      213: 7493821517606937329
+    second: Base-NPCs_19
+  - first:
+      213: 4276173681336818492
+    second: Base-NPCs_20
+  - first:
+      213: 7575233380051816094
+    second: Base-NPCs_21
+  - first:
+      213: 8401650459017614782
+    second: Base-NPCs_22
+  - first:
+      213: -7841799850188391239
+    second: Base-NPCs_23
+  - first:
+      213: -553211093166798691
+    second: Base-NPCs_24
+  - first:
+      213: -3832437936766086060
+    second: Base-NPCs_25
+  - first:
+      213: 8181746052569752494
+    second: Base-NPCs_26
+  - first:
+      213: -6286662014400430872
+    second: Base-NPCs_27
+  - first:
+      213: 7409763636445069577
+    second: Base-NPCs_28
+  - first:
+      213: -4520271997476133872
+    second: Base-NPCs_29
+  - first:
+      213: -2101732767113613340
+    second: Base-NPCs_30
+  - first:
+      213: -4835164797668590749
+    second: Base-NPCs_31
+  - first:
+      213: -4675946475801823659
+    second: Base-NPCs_32
+  - first:
+      213: 2979318462002992080
+    second: Base-NPCs_33
+  - first:
+      213: -6204034697403917949
+    second: Base-NPCs_34
+  - first:
+      213: -6614614252734024002
+    second: Base-NPCs_35
+  - first:
+      213: 8303013495326033881
+    second: Base-NPCs_36
+  - first:
+      213: 8575523517655161847
+    second: Base-NPCs_37
+  - first:
+      213: -7757701379339291935
+    second: Base-NPCs_38
+  - first:
+      213: -1189148896385554946
+    second: Base-NPCs_39
+  - first:
+      213: 5312380611607657250
+    second: Base-NPCs_40
+  - first:
+      213: 5056060624767710531
+    second: Base-NPCs_41
+  - first:
+      213: -1583566236235435240
+    second: Base-NPCs_42
+  - first:
+      213: -4959520045950199528
+    second: Base-NPCs_43
+  - first:
+      213: -6422954370834766177
+    second: Base-NPCs_44
+  - first:
+      213: 2451165405278255899
+    second: Base-NPCs_45
+  - first:
+      213: 7192841152001977437
+    second: Base-NPCs_46
+  - first:
+      213: 6119857771054123815
+    second: Base-NPCs_47
+  - first:
+      213: -8895115909738868370
+    second: Base-NPCs_48
+  - first:
+      213: -5691878850801129845
+    second: Base-NPCs_49
+  - first:
+      213: -5273500912041760204
+    second: Base-NPCs_50
+  - first:
+      213: -5260232417608767376
+    second: Base-NPCs_51
+  - first:
+      213: -2360963093186118999
+    second: Base-NPCs_52
+  - first:
+      213: -8846205043042860293
+    second: Base-NPCs_53
+  - first:
+      213: -8895209393606176656
+    second: Base-NPCs_54
+  - first:
+      213: -4713305581404248250
+    second: Base-NPCs_55
+  - first:
+      213: 3195343447531374341
+    second: Base-NPCs_56
+  - first:
+      213: -239312559130386518
+    second: Base-NPCs_57
+  - first:
+      213: 7472078900039696111
+    second: Base-NPCs_58
+  - first:
+      213: 836546930697750051
+    second: Base-NPCs_59
+  - first:
+      213: -6372573481345313682
+    second: Base-NPCs_60
+  - first:
+      213: -6094328666394612299
+    second: Base-NPCs_61
+  - first:
+      213: 2763683510092651352
+    second: Base-NPCs_62
+  - first:
+      213: 85756848506893338
+    second: Base-NPCs_63
+  - first:
+      213: -9095013067185643828
+    second: Base-NPCs_64
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Base-NPCs_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc5a2e2cd762aaf4cb34f0f819515e8d
+      internalID: -156146813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Base-NPCs_1
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 837f70a5334573a43acb73c7ac5bcc26
+      internalID: 1643109526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Base-NPCs_2
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70506813282350f47995d7baa82473e4
+      internalID: 597041888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Base-NPCs_3
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 0
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3025419225b1e846bfeb4817b0eafa0
+      internalID: -932135977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d987308fdea860347b836e01057d0f35
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Base-NPCs_0: -156146813
+      Base-NPCs_1: 1643109526
+      Base-NPCs_2: 597041888
+      Base-NPCs_3: -932135977
+      Base-NPCs_4: 80732285
+      Base-NPCs_5: -323824793
+      Base-NPCs_6: 1592480225
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

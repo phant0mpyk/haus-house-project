@@ -64,15 +64,23 @@
     <Compile Include="Assets\Scripts\PitchTracker.cs" />
     <Compile Include="Assets\Scripts\Tutorial2.cs" />
     <Compile Include="Assets\Scripts\ProgressBarController.cs" />
+    <Compile Include="Assets\ColourParty\Scripts\GameManager.cs" />
+    <Compile Include="Assets\ColourParty\Scripts\HomeButton.cs" />
+    <Compile Include="Assets\ColourParty\Scripts\AudioLoudnessMicrophone.cs" />
+    <Compile Include="Assets\Scripts\WinCondition.cs" />
     <Compile Include="Assets\Scripts\AudioLoudnessDetector.cs" />
     <Compile Include="Assets\Scripts\CatMicController.cs" />
     <Compile Include="Assets\Scripts\Tutorial3.cs" />
     <Compile Include="Assets\Scripts\TutorialController.cs" />
     <Compile Include="Assets\Scripts\HomeScreenController.cs" />
+    <Compile Include="Assets\ColourParty\Scripts\ScaleFromAudio.cs" />
+    <Compile Include="Assets\ColourParty\Scripts\PlayerScript.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\Tutorial1.cs" />
     <Compile Include="Assets\Scripts\SleepyScreenController.cs" />
+    <Compile Include="Assets\ColourParty\Scripts\GameManagerV2.cs" />
     <Compile Include="Assets\MicCalibration.cs" />
+    <Compile Include="Assets\ColourParty\Scripts\DSPBeatPlayer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
