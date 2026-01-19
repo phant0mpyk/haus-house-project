@@ -6,7 +6,7 @@ public class SleepyScreenController : MonoBehaviour
    
     public void BackToHome()
     {
-        SceneManager.LoadScene("HomeScreen");
+        SceneManager.LoadScene("Main Menu");
     }
 
 }
