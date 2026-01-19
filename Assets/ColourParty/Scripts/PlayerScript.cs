@@ -6,27 +6,35 @@ public class PlayerScript : MonoBehaviour
 
 
     [Header("Player Settings")]
-    public float moveDuration = 1f;
-    public float moveDistance = 2.5f;
+    public float moveAmount = 0.5f;     // world units per move
+    public float moveDuration = 0.25f;  // seconds
+
+    private bool isMoving;
 
     public void MoveRight()
     {
-        StartCoroutine(MoveCoroutine());
+        if (!isMoving)
+            StartCoroutine(MoveRoutine());
     }
 
-    private IEnumerator MoveCoroutine()
+    private IEnumerator MoveRoutine()
     {
-        Vector3 start = transform.position;
-        Vector3 end = start + new Vector3(moveDistance, 0, 0);
-        float t = 0f;
+        isMoving = true;
 
-        while (t < 1f)
+        Vector3 startPos = transform.position;
+        Vector3 targetPos = startPos + Vector3.right * moveAmount;
+
+        float elapsed = 0f;
+
+        while (elapsed < moveDuration)
         {
-            t += Time.deltaTime / moveDuration; // increase t over time
-            transform.position = Vector3.Lerp(start, end, t);
+            elapsed += Time.deltaTime;
+            float t = elapsed / moveDuration;
+            transform.position = Vector3.Lerp(startPos, targetPos, t);
             yield return null;
         }
 
-        transform.position = end; // ensure exact final position
+        transform.position = targetPos;
+        isMoving = false;
     }
 }
