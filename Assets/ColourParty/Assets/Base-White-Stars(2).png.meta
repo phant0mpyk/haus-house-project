@@ -1,0 +1,476 @@
+fileFormatVersion: 2
+guid: 1ca6fc1434760e04a8a5525e6ad11b37
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8067316953704037855
+    second: Base-White-Stars(2)_0
+  - first:
+      213: -614078568638742701
+    second: Base-White-Stars(2)_1
+  - first:
+      213: -5940011539303523201
+    second: Base-White-Stars(2)_2
+  - first:
+      213: -5748049524481633294
+    second: Base-White-Stars(2)_3
+  - first:
+      213: -527875405509359717
+    second: Base-White-Stars(2)_4
+  - first:
+      213: 2456302446179293392
+    second: Base-White-Stars(2)_5
+  - first:
+      213: -9023429488527555174
+    second: Base-White-Stars(2)_6
+  - first:
+      213: -5190141077939047826
+    second: Base-White-Stars(2)_7
+  - first:
+      213: 793921911470219138
+    second: Base-White-Stars(2)_8
+  - first:
+      213: 8549834646886851025
+    second: Base-White-Stars(2)_9
+  - first:
+      213: -5316530064572304502
+    second: Base-White-Stars(2)_10
+  - first:
+      213: 515608776852186940
+    second: Base-White-Stars(2)_11
+  - first:
+      213: 7184483434031546254
+    second: Base-White-Stars(2)_12
+  - first:
+      213: 6487505799753021659
+    second: Base-White-Stars(2)_13
+  - first:
+      213: 4359192490919410645
+    second: Base-White-Stars(2)_14
+  - first:
+      213: 768439233122926747
+    second: Base-White-Stars(2)_15
+  - first:
+      213: 6865041289040348382
+    second: Base-White-Stars(2)_16
+  - first:
+      213: -3112260491574954946
+    second: Base-White-Stars(2)_17
+  - first:
+      213: 5495519751406550451
+    second: Base-White-Stars(2)_18
+  - first:
+      213: -1012948462927357619
+    second: Base-White-Stars(2)_19
+  - first:
+      213: -7915182263117606860
+    second: Base-White-Stars(2)_20
+  - first:
+      213: -6255731304762320646
+    second: Base-White-Stars(2)_21
+  - first:
+      213: 8350676739652729854
+    second: Base-White-Stars(2)_22
+  - first:
+      213: -5124456300844826175
+    second: Base-White-Stars(2)_23
+  - first:
+      213: -4721145405306358850
+    second: Base-White-Stars(2)_24
+  - first:
+      213: 3743220737236329065
+    second: Base-White-Stars(2)_25
+  - first:
+      213: -6689636268901902574
+    second: Base-White-Stars(2)_26
+  - first:
+      213: -7453594656691098406
+    second: Base-White-Stars(2)_27
+  - first:
+      213: 692723758925868322
+    second: Base-White-Stars(2)_28
+  - first:
+      213: 5122532266435910273
+    second: Base-White-Stars(2)_29
+  - first:
+      213: -5947724396760540112
+    second: Base-White-Stars(2)_30
+  - first:
+      213: 3872797887070789068
+    second: Base-White-Stars(2)_31
+  - first:
+      213: -4331973807904766064
+    second: Base-White-Stars(2)_32
+  - first:
+      213: 2791458154478372494
+    second: Base-White-Stars(2)_33
+  - first:
+      213: 5762072581092831366
+    second: Base-White-Stars(2)_34
+  - first:
+      213: 6973812437897565586
+    second: Base-White-Stars(2)_35
+  - first:
+      213: -1381384560110768418
+    second: Base-White-Stars(2)_36
+  - first:
+      213: 5781402808536076412
+    second: Base-White-Stars(2)_37
+  - first:
+      213: -7271250387754714998
+    second: Base-White-Stars(2)_38
+  - first:
+      213: -8107315605988112926
+    second: Base-White-Stars(2)_39
+  - first:
+      213: 1047032882547030262
+    second: Base-White-Stars(2)_40
+  - first:
+      213: -4227171619845579032
+    second: Base-White-Stars(2)_41
+  - first:
+      213: 79085541714593637
+    second: Base-White-Stars(2)_42
+  - first:
+      213: 543178293286702435
+    second: Base-White-Stars(2)_43
+  - first:
+      213: -474741288374116969
+    second: Base-White-Stars(2)_44
+  - first:
+      213: -2249050897345745762
+    second: Base-White-Stars(2)_45
+  - first:
+      213: -8041234198979410428
+    second: Base-White-Stars(2)_46
+  - first:
+      213: -3920485425099762273
+    second: Base-White-Stars(2)_47
+  - first:
+      213: 9066824086289024990
+    second: Base-White-Stars(2)_48
+  - first:
+      213: -1203450782398855913
+    second: Base-White-Stars(2)_49
+  - first:
+      213: 635430523118090576
+    second: Base-White-Stars(2)_50
+  - first:
+      213: 1160270022190239860
+    second: Base-White-Stars(2)_51
+  - first:
+      213: -8925044614898616296
+    second: Base-White-Stars(2)_52
+  - first:
+      213: -3175256970672076977
+    second: Base-White-Stars(2)_53
+  - first:
+      213: -8259017562104430290
+    second: Base-White-Stars(2)_54
+  - first:
+      213: 7539321749010454410
+    second: Base-White-Stars(2)_55
+  - first:
+      213: -5274830924732445087
+    second: Base-White-Stars(2)_56
+  - first:
+      213: 8752079375330676796
+    second: Base-White-Stars(2)_57
+  - first:
+      213: 5301327348109312810
+    second: Base-White-Stars(2)_58
+  - first:
+      213: 9156166436667083326
+    second: Base-White-Stars(2)_59
+  - first:
+      213: 1058224134022377590
+    second: Base-White-Stars(2)_60
+  - first:
+      213: -2397094874593803538
+    second: Base-White-Stars(2)_61
+  - first:
+      213: -7353774028943668811
+    second: Base-White-Stars(2)_62
+  - first:
+      213: -7946948710350851852
+    second: Base-White-Stars(2)_63
+  - first:
+      213: -1489176935991122641
+    second: Base-White-Stars(2)_64
+  - first:
+      213: 2898349061839605237
+    second: Base-White-Stars(2)_65
+  - first:
+      213: -3560939540779884658
+    second: Base-White-Stars(2)_66
+  - first:
+      213: 4465661101095199567
+    second: Base-White-Stars(2)_67
+  - first:
+      213: 8024060166768352393
+    second: Base-White-Stars(2)_68
+  - first:
+      213: 413630001046405748
+    second: Base-White-Stars(2)_69
+  - first:
+      213: 4211474310948150443
+    second: Base-White-Stars(2)_70
+  - first:
+      213: 1319546285590699733
+    second: Base-White-Stars(2)_71
+  - first:
+      213: 2480113319266554154
+    second: Base-White-Stars(2)_72
+  - first:
+      213: -3085877530204902071
+    second: Base-White-Stars(2)_73
+  - first:
+      213: -4527067159591413884
+    second: Base-White-Stars(2)_74
+  - first:
+      213: -7362765332809038353
+    second: Base-White-Stars(2)_75
+  - first:
+      213: 6185956690863872880
+    second: Base-White-Stars(2)_76
+  - first:
+      213: -3977725195811229074
+    second: Base-White-Stars(2)_77
+  - first:
+      213: 7600603300519281750
+    second: Base-White-Stars(2)_78
+  - first:
+      213: 8017873211296998714
+    second: Base-White-Stars(2)_79
+  - first:
+      213: -6400402071676730303
+    second: Base-White-Stars(2)_80
+  - first:
+      213: -4438230587279181310
+    second: Base-White-Stars(2)_81
+  - first:
+      213: -1623625007231533302
+    second: Base-White-Stars(2)_82
+  - first:
+      213: 7256224850820581771
+    second: Base-White-Stars(2)_83
+  - first:
+      213: -2430687606541018785
+    second: Base-White-Stars(2)_84
+  - first:
+      213: 4345702439238691724
+    second: Base-White-Stars(2)_85
+  - first:
+      213: -7953604391121688654
+    second: Base-White-Stars(2)_86
+  - first:
+      213: -189988983379112394
+    second: Base-White-Stars(2)_87
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Base-White-Stars(2)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca36c7c0283e8a44a33161e6600a86a
+      internalID: 587947617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Base-White-Stars(2)_1
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf3c6595d254b60448f389279e220f20
+      internalID: -794570881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Base-White-Stars(2)_2
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd58ce4ed1439224c85a8eadde97d6bf
+      internalID: 264648400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Base-White-Stars(2)_3
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 0
+        width: 1024
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce0353424d51d144780410e858decca6
+      internalID: 1689855558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4ace672c14a441b479cf413758822b7c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Base-White-Stars(2)_0: 587947617
+      Base-White-Stars(2)_1: -794570881
+      Base-White-Stars(2)_2: 264648400
+      Base-White-Stars(2)_3: 1689855558
+      Base-White-Stars(2)_4: -76003855
+      Base-White-Stars(2)_5: 1037108623
+      Base-White-Stars(2)_6: -1753830502
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

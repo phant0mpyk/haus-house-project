@@ -2,12 +2,18 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    public PlayerScript playerScript;
+    public AudioLoudnessMicrophone detector;
+    public float microphoneSensitivity = 100;
+    public float treshold = 0.1f;
+
     [Header("Tempo")]
     public float bpm = 120f;
     public float inputWindow = 0.15f; // seconds before/after beat allowed
 
     [Header("Beat Visuals")]
     public GameObject[] beatSquares; // size 4
+    public SpriteRenderer[] beatSquaresRenderer;
 
     private double secondsPerBeat;
     private double nextBeatTime;
@@ -15,9 +21,17 @@ public class GameManager : MonoBehaviour
 
     private bool canRegisterInput;
     public bool hitOnBeat;
+    public int hitCounter = 0;
+
 
     void Start()
     {
+        beatSquaresRenderer = new SpriteRenderer[beatSquares.Length];
+        for (int i = 0; i < beatSquares.Length; i++)
+        {
+            beatSquaresRenderer[i] = beatSquares[i].GetComponent<SpriteRenderer>();
+        }
+
         secondsPerBeat = 60f / bpm;
         nextBeatTime = AudioSettings.dspTime + 1.0f; // start after 1 sec
     }
@@ -33,33 +47,47 @@ public class GameManager : MonoBehaviour
         }
 
         // Input detection
-        if (canRegisterInput && Input.GetKeyDown(KeyCode.Space))
+        float loudness = detector.GetLoudnessFromMicrophone() * microphoneSensitivity;
+
+        //if (canRegisterInput && Input.GetKeyDown(KeyCode.Space))
+        if (canRegisterInput && loudness > treshold)
         {
             hitOnBeat = true;
             canRegisterInput = false;
             Debug.Log("HIT");
+            hitCounter++;
         }
-    }
 
-    void TriggerBeat()
-    {
-        // Reset visuals
-        foreach (var square in beatSquares)
-            square.SetActive(false);
+        foreach (SpriteRenderer sr in beatSquaresRenderer)
+            sr.color = hitOnBeat ? Color.green : Color.red;
 
-        beatSquares[beatIndex].SetActive(true);
+        //move player
+        if (hitCounter == 8)
+        {
+            playerScript.MoveRight();
+            hitCounter = 0;
+        }
 
-        hitOnBeat = false;
-        canRegisterInput = true;
+        void TriggerBeat()
+        {
+            // Reset visuals
+            foreach (var square in beatSquares)
+                square.SetActive(false);
 
-        // Close input window after tolerance
-        Invoke(nameof(CloseInputWindow), inputWindow);
+            beatSquares[beatIndex].SetActive(true);
 
-        beatIndex = (beatIndex + 1) % beatSquares.Length;
-    }
+            hitOnBeat = false;
+            canRegisterInput = true;
 
-    void CloseInputWindow()
-    {
-        canRegisterInput = false;
+            // Close input window after tolerance
+            Invoke(nameof(CloseInputWindow), inputWindow);
+
+            beatIndex = (beatIndex + 1) % beatSquares.Length;
+        }
+
+        void CloseInputWindow()
+        {
+            canRegisterInput = false;
+        }
     }
 }
