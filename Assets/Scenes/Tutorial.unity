@@ -1103,12 +1103,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tutorialText: {fileID: 371054977}
   tutorialLines:
-  - Houd het juiste volume aan, zodat ik me kan concentreren tijdens mijn werk.
-  - Ik moet 5 sterpunten verzamelen om mijn eigen kleine sterrenvriendje te kunnen
-    maken.
-  - " Gebruik de microfoon van je apparaat om gedurende een bepaalde tijd op het
-    juiste volume te neuri\xEBn.\r\n"
-  SceneName: CatNap
+  - m_TableReference:
+      m_TableCollectionName: GUID:5d1016df1075a8f45a83355ed9981482
+    m_TableEntryReference:
+      m_KeyId: 6476226560
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  - m_TableReference:
+      m_TableCollectionName: GUID:5d1016df1075a8f45a83355ed9981482
+    m_TableEntryReference:
+      m_KeyId: 8355274752
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  - m_TableReference:
+      m_TableCollectionName: GUID:5d1016df1075a8f45a83355ed9981482
+    m_TableEntryReference:
+      m_KeyId: 9965887488
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  sceneName: CatNap
+  references:
+    version: 2
+    RefIds: []
 --- !u!1 &1951000498
 GameObject:
   m_ObjectHideFlags: 0

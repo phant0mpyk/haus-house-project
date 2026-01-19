@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: TwinkleBuddy Tutorial_nl
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: nl
+  m_SharedData: {fileID: 11400000, guid: 5d1016df1075a8f45a83355ed9981482, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 6476226560
+    m_Localized: Zorg voor het juiste volume, zodat ik me kan concentreren tijdens
+      mijn werk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8355274752
+    m_Localized: "Gebruik de microfoon van je apparaat om gedurende een bepaalde
+      tijd op het juiste volume te neuri\xEBn"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9965887488
+    m_Localized: Ik moet 5 sterrenpunten verzamelen om mijn eigen kleine sterrenvriendje
+      te kunnen maken
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

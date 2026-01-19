@@ -1,16 +1,17 @@
 using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
-
+using UnityEngine.Localization;
+using UnityEngine.ResourceManagement.AsyncOperations;
 
 public class TutorialController : MonoBehaviour
 {
     public TextMeshProUGUI tutorialText;
 
-    [TextArea(3, 5)]
-    public string[] tutorialLines; // public, so I can add the text in unity, those are the tutorial lines
+    [Header("Localization Settings")]
+    public LocalizedString[] tutorialLines;
 
-    public string SceneName; 
+    public string sceneName = "CatNap";
 
     private int currentLineIndex = 0;
 
@@ -26,17 +27,21 @@ public class TutorialController : MonoBehaviour
         if (currentLineIndex < tutorialLines.Length)
         {
             ShowLine();
-
         }
         else
         {
-            //loading the game scene after text is done, this is good so I can add as much text as I want and the game recorgnizes once all the text is over it can now switch to the game, like this its easier to add lines
-            SceneManager.LoadScene("CatNap");
+            SceneManager.LoadScene(sceneName);
         }
     }
 
     void ShowLine()
     {
-        tutorialText.text = tutorialLines[currentLineIndex];
+        tutorialLines[currentLineIndex].GetLocalizedStringAsync().Completed += (AsyncOperationHandle<string> handle) =>
+        {
+            if (handle.Status == AsyncOperationStatus.Succeeded)
+            {
+                tutorialText.text = handle.Result;
+            }
+        };
     }
 }

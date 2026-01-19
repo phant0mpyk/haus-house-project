@@ -35,6 +35,20 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Tutorial.unity
     guid: 469e7979c2b55fa4fb00872d890054c0
+  - enabled: 1
+    path: Assets/Scenes/Settings.unity
+    guid: 914f0d207ce63bc4b944ae74eb45fb57
+  - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: 0eb3f7ce96fcdd34ca626691dcb02138
+  - enabled: 1
+    path: Assets/Scenes/ColourPartyVictory.unity
+    guid: aac2748928d4ba145b688511bbf4b773
+  - enabled: 1
+    path: Assets/Scenes/ColourParty.unity
+    guid: 8c393c07518218342aa1d79724dd61f2
   m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: cf2780a3bd4a6ef4ca2b5cae6a12be68, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    com.unity.localization.settings: {fileID: 11400000, guid: 7c96fb899dfddf24ab903d114b332c36, type: 2}
   m_UseUCBPForAssetBundles: 0

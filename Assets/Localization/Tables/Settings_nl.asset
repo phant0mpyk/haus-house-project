@@ -10,16 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
-  m_Name: Menu_en
+  m_Name: Settings_nl
   m_EditorClassIdentifier: 
   m_LocaleId:
-    m_Code: en
-  m_SharedData: {fileID: 11400000, guid: a00de92af3925ea4eb0ccd2d6b20fefd, type: 2}
+    m_Code: nl
+  m_SharedData: {fileID: 11400000, guid: a77a1e75529e74c43b44dd1841b25615, type: 2}
   m_Metadata:
     m_Items: []
   m_TableData:
-  - m_Id: 17339858944
-    m_Localized: Quit
+  - m_Id: 5582839808
+    m_Localized: 'Taal : Nederlands'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13342302208
+    m_Localized: Microfoon Afstellen
     m_Metadata:
       m_Items: []
   references:

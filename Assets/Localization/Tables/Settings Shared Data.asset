@@ -10,23 +10,29 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
-  m_Name: Menu Shared Data
+  m_Name: Settings Shared Data
   m_EditorClassIdentifier: 
-  m_TableCollectionName: Menu
-  m_TableCollectionNameGuidString: a00de92af3925ea4eb0ccd2d6b20fefd
+  m_TableCollectionName: Settings
+  m_TableCollectionNameGuidString: a77a1e75529e74c43b44dd1841b25615
   m_Entries:
-  - m_Id: 17339858944
-    m_Key: QUIT GAME
+  - m_Id: 5582839808
+    m_Key: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13342302208
+    m_Key: 'Mic_Sens
+
+'
     m_Metadata:
       m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
-    rid: 3528964372846870739
+    rid: 6172421230073479442
   references:
     version: 2
     RefIds:
-    - rid: 3528964372846870739
+    - rid: 6172421230073479442
       type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
       data:
-        m_CustomEpoch: 1766139988464
+        m_CustomEpoch: 1768843843213

@@ -68,6 +68,16 @@
       "source": "registry",
       "testable": false
     },
+    "com.unity.localization@1.5.9": {
+      "name": "com.unity.localization",
+      "displayName": "Localization",
+      "resolvedPath": "D:\\haus-house-project\\Library\\PackageCache\\com.unity.localization@62db12c43c5c",
+      "fingerprint": "62db12c43c5cc209aa22b80b5960d88f86711ea4",
+      "editorCompatibility": "2019.4.0a1",
+      "version": "1.5.9",
+      "source": "registry",
+      "testable": false
+    },
     "com.unity.multiplayer.center@1.0.0": {
       "name": "com.unity.multiplayer.center",
       "displayName": "Multiplayer Center",
@@ -440,6 +450,26 @@
       "source": "builtin",
       "testable": false
     },
+    "com.unity.addressables@2.4.3": {
+      "name": "com.unity.addressables",
+      "displayName": "Addressables",
+      "resolvedPath": "D:\\haus-house-project\\Library\\PackageCache\\com.unity.addressables@8199bdf7ecb0",
+      "fingerprint": "8199bdf7ecb01ecaa0ab1a5da203f57bf6d8008b",
+      "editorCompatibility": "2023.1.0a1",
+      "version": "2.4.3",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.nuget.newtonsoft-json@3.2.1": {
+      "name": "com.unity.nuget.newtonsoft-json",
+      "displayName": "Newtonsoft Json",
+      "resolvedPath": "D:\\haus-house-project\\Library\\PackageCache\\com.unity.nuget.newtonsoft-json@74deb55db2a0",
+      "fingerprint": "74deb55db2a0c29ddfda576608bcb86abbd13ee6",
+      "editorCompatibility": "2018.4.0a1",
+      "version": "3.2.1",
+      "source": "registry",
+      "testable": false
+    },
     "com.unity.2d.animation@10.1.4": {
       "name": "com.unity.2d.animation",
       "displayName": "2D Animation",
@@ -568,6 +598,26 @@
       "editorCompatibility": "2023.3.0b1",
       "version": "1.0.1",
       "source": "builtin",
+      "testable": false
+    },
+    "com.unity.profiling.core@1.0.2": {
+      "name": "com.unity.profiling.core",
+      "displayName": "Unity Profiling Core API",
+      "resolvedPath": "D:\\haus-house-project\\Library\\PackageCache\\com.unity.profiling.core@aac7b93912bc",
+      "fingerprint": "aac7b93912bc5df5fe06b04ff1b758493cdc2346",
+      "editorCompatibility": "2020.1.0a1",
+      "version": "1.0.2",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.scriptablebuildpipeline@2.3.2": {
+      "name": "com.unity.scriptablebuildpipeline",
+      "displayName": "Scriptable Build Pipeline",
+      "resolvedPath": "D:\\haus-house-project\\Library\\PackageCache\\com.unity.scriptablebuildpipeline@2ced215f4f31",
+      "fingerprint": "2ced215f4f3196d1f1d796bbf3aaa34bdcbb062f",
+      "editorCompatibility": "2023.1.0a1",
+      "version": "2.3.2",
+      "source": "registry",
       "testable": false
     },
     "com.unity.2d.common@9.0.7": {

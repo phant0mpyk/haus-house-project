@@ -9,19 +9,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
-  m_Name: Menu_nl
+  m_Script: {fileID: 11500000, guid: 1bb1838fe8befb0429646b938e757ff3, type: 3}
+  m_Name: English (en) 1
   m_EditorClassIdentifier: 
-  m_LocaleId:
-    m_Code: nl
-  m_SharedData: {fileID: 11400000, guid: a00de92af3925ea4eb0ccd2d6b20fefd, type: 2}
+  m_Identifier:
+    m_Code: en
   m_Metadata:
     m_Items: []
-  m_TableData:
-  - m_Id: 17339858944
-    m_Localized: Sluiten
-    m_Metadata:
-      m_Items: []
+  m_LocaleName: English (en) 1
+  m_CustomFormatCultureCode: 
+  m_UseCustomFormatter: 0
+  m_SortOrder: 10000
   references:
     version: 2
     RefIds: []

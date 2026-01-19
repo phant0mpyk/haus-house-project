@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-String-Tables-Dutch (nl) 1
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-String-Tables-Dutch (nl) 1
+  m_GUID: c59fb651385b4df459ce881170742c9f
+  m_SerializeEntries:
+  - m_GUID: 1f5b25fa1fac4bd4abf89ed6ffc245f0
+    m_Address: Settings_nl
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-nl
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 580684f719f3246469ccd697fda1125f
+    m_Address: Main Menu_nl
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-nl
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fe02c66b12b2c1741bf07daf98eda2ac
+    m_Address: TwinkleBuddy Tutorial_nl
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-nl
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: dcbd0e48387f5c847ae36cccf5d78775, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 7356744c910d80544b831b7b30fc5a56, type: 2}
+    - {fileID: 11400000, guid: b8b3ef76b269a2e4d8cfbe0d73e8d8d4, type: 2}
