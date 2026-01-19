@@ -5,26 +5,35 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-   public void PlayGame1()
+   //Switching to the scenes of the different minigames//
+    public void PlayGame1()
     {
-        SceneManager.LoadSceneAsync(1);
+        SceneManager.LoadSceneAsync("Tutorial");
     }
 
     public void PlayGame2()
     {
-        SceneManager.LoadSceneAsync(2);
+        SceneManager.LoadSceneAsync("SleepyScreen");
     }
 
     public void PlayGame3()
     {
-        SceneManager.LoadSceneAsync(3);
+        SceneManager.LoadSceneAsync("SampleScreen");
     }
 
+    //Switching to settings scene//
+    public void Settings()
+    {
+        SceneManager.LoadSceneAsync("Settings");
+    }
+
+    //Returning back to the main menu scene//
     public void ExitGame()
     {
         SceneManager.LoadSceneAsync(0);
     }
 
+    //Closing the game//
     public void QuitGame()
     {
         Application.Quit();

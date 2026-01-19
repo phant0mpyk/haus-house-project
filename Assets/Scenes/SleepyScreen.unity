@@ -535,6 +535,9 @@ MonoBehaviour:
   catSleeping: {fileID: 4012573996594556809, guid: 7f924c05796e72642942a028e9c4b420, type: 3}
   catAwake: {fileID: 5845518621015215796, guid: ad11416df28e74d468aa866601e0f408, type: 3}
   fishPoint: {fileID: 0}
+  MICon: {fileID: 0}
+  MICoff: {fileID: 0}
+  MicImage: {fileID: 0}
   loudnessDetector: {fileID: 375609010}
   minGreen: 0.001
   maxGreen: 8
@@ -543,6 +546,8 @@ MonoBehaviour:
   winTime: 3
   gameWon: 0
   looseTime: 5
+  audiosource: {fileID: 0}
+  particlesystem: {fileID: 0}
   progressBar: {fileID: 0}
 --- !u!114 &375609010
 MonoBehaviour:
@@ -1159,8 +1164,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 0.001377, y: 15.3826}
+  m_SizeDelta: {x: 227.67, y: 101.2819}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1949829471
 MonoBehaviour:
